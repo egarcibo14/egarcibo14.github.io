@@ -19,6 +19,14 @@
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.1.1</generator>
+
+<image>
+	<url>https://egarcibo14.github.io/wp-content/uploads/2022/12/Emma.jpg</url>
+	<title>Uncategorized &#8211; ePortfolio</title>
+	<link>https://egarcibo14.github.io</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Hello world!</title>
 		<link>https://egarcibo14.github.io/2022/12/23/hello-world/</link>
