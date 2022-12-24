@@ -25,11 +25,10 @@ img.emoji {
 	background: none !important;
 	padding: 0 !important;
 }</style>
-	<style id="wp-block-site-logo-inline-css">.wp-block-site-logo{box-sizing:border-box;line-height:0}.wp-block-site-logo a{display:inline-block}.wp-block-site-logo.is-default-size img{width:120px;height:auto}.wp-block-site-logo img{height:auto;max-width:100%}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}.wp-block-site-logo.is-style-rounded{border-radius:9999px}</style>
-<style id="wp-block-site-title-inline-css">.wp-block-site-title{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-style: italic;font-weight: normal;line-height: var(--wp--custom--typography--line-height--normal);}</style>
+	<style id="wp-block-site-title-inline-css">.wp-block-site-title{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-style: italic;font-weight: normal;line-height: var(--wp--custom--typography--line-height--normal);}</style>
 <style id="wp-block-group-inline-css">.wp-block-group{box-sizing:border-box}
 :where(.wp-block-group.has-background){padding:1.25em 2.375em}</style>
-<style id="wp-block-page-list-inline-css">.wp-block-navigation .wp-block-page-list{display:flex;flex-direction:var(--navigation-layout-direction,initial);justify-content:var(--navigation-layout-justify,initial);align-items:var(--navigation-layout-align,initial);flex-wrap:var(--navigation-layout-wrap,wrap);background-color:inherit}.wp-block-navigation .wp-block-navigation-item{background-color:inherit}</style>
+<style id="wp-block-navigation-link-inline-css">.wp-block-navigation .wp-block-navigation-item__label{word-break:normal;overflow-wrap:break-word}.wp-block-navigation .wp-block-navigation-item__description{display:none}</style>
 <link rel="stylesheet" id="wp-block-navigation-css" href="https://egarcibo14.github.io/wp-includes/blocks/navigation/style.min.css?ver=6.1.1" media="all">
 <style id="wp-block-navigation-inline-css">.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}</style>
 <style id="wp-block-template-part-inline-css">.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}</style>
@@ -76,22 +75,19 @@ img.emoji {
 <header class="wp-block-template-part">
 <div class="is-layout-constrained wp-block-group">
 <div class="is-content-justification-space-between is-layout-flex wp-container-4 wp-block-group alignwide" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--large, 8rem)">
-<div class="is-layout-flex wp-block-group">
-<div class="wp-block-site-logo"><a href="https://egarcibo14.github.io/" class="custom-logo-link" rel="home"><img loading="lazy" width="58" height="54" src="https://egarcibo14.github.io/wp-content/uploads/2022/12/Emma.jpg" class="custom-logo" alt="ePortfolio" decoding="async"></a></div>
-
-<h1 class="wp-block-site-title"><a href="https://egarcibo14.github.io" target="_self" rel="home">ePortfolio</a></h1>
-</div>
+<div class="is-layout-flex wp-block-group"><h1 class="wp-block-site-title"><a href="https://egarcibo14.github.io" target="_self" rel="home">ePortfolio</a></h1></div>
 
 
-<nav class="is-content-justification-right is-layout-flex wp-container-3 is-responsive items-justified-right wp-block-navigation" aria-label=""><button aria-haspopup="true" aria-label="Open menu" class="wp-block-navigation__responsive-container-open " data-micromodal-trigger="modal-2"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5"></rect><rect x="4" y="15" width="16" height="1.5"></rect></svg></button>
+<nav class="is-content-justification-right is-layout-flex wp-container-3 is-responsive items-justified-right wp-block-navigation" aria-label="Header navigation"><button aria-haspopup="true" aria-label="Open menu" class="wp-block-navigation__responsive-container-open " data-micromodal-trigger="modal-2"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5"></rect><rect x="4" y="15" width="16" height="1.5"></rect></svg></button>
 			<div class="wp-block-navigation__responsive-container  " id="modal-2">
 				<div class="wp-block-navigation__responsive-close" tabindex="-1" data-micromodal-close>
 					<div class="wp-block-navigation__responsive-dialog" aria-label="Menu">
 							<button aria-label="Close menu" data-micromodal-close class="wp-block-navigation__responsive-container-close"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z"></path></svg></button>
 						<div class="wp-block-navigation__responsive-container-content" id="modal-2-content">
-							<ul class="wp-block-page-list">
-<li class="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click"><a class="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://egarcibo14.github.io/home/">Home</a></li>
-<li class="wp-block-pages-list__item current-menu-item wp-block-navigation-item open-on-hover-click"><a class="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://egarcibo14.github.io/sample-page/" aria-current="page">Sample Page</a></li>
+							<ul class="wp-block-navigation__container">
+<li class=" wp-block-navigation-item current-menu-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://egarcibo14.github.io/sample-page/" aria-current="page" target="_blank"><span class="wp-block-navigation-item__label">CV </span></a></li>
+<li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://www.linkedin.com/in/egboadas/" target="_blank"><span class="wp-block-navigation-item__label">LinkedIn</span></a></li>
+<li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://egarcibo14.github.io/home/"><span class="wp-block-navigation-item__label">Home</span></a></li>
 </ul>
 						</div>
 					</div>
@@ -145,18 +141,15 @@ img.emoji {
 
 <footer class="wp-block-template-part">
 <div class="is-layout-constrained wp-block-group" style="padding-top:var(--wp--custom--spacing--large, 8rem)">
-
-					<div class="is-layout-constrained wp-block-group alignfull">
-					<div class="is-content-justification-space-between is-layout-flex wp-container-10 wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem">
+<div class="is-layout-constrained wp-block-group alignfull">
+<div class="is-content-justification-space-between is-layout-flex wp-container-10 wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem">
 <p class="wp-block-site-title"><a href="https://egarcibo14.github.io" target="_self" rel="home">ePortfolio</a></p>
 
-					
-					<p class="has-text-align-right">Proudly powered by <a href="https://wordpress.org/" rel="nofollow">WordPress</a></p>
-					</div>
-					</div>
-					
-</div>
 
+<p class="has-text-align-right"></p>
+</div>
+</div>
+</div>
 </footer>
 </div>
 
